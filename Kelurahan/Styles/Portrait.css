@@ -1,0 +1,79 @@
+﻿.portraitInvisible
+{
+    display:none;
+}
+
+#TabBar_C0,
+#TabBar_C1
+{
+	background-color: #E2E5EA;
+}
+#TabBar_C0
+{
+	padding-left:15px;
+}
+
+.dxgvControl_iOS.tableViewGrid .dxgvGroupPanel_iOS
+{
+	margin-top: -52px;
+}
+
+.cardViewGrid .gvItem
+{
+	padding: 27px 39px 13px;
+	height:234px;
+}
+.cardViewGrid .gvItemRPanel
+{
+	padding-left:27px;
+	padding-top:0px;
+}
+.cardViewGrid .icon
+{
+	width:250px;
+}
+.cardViewGrid .price
+{
+	margin: 16px auto 0 auto;
+}
+.cardViewGrid .address
+{
+	font-size: 21pt;
+}
+.cardViewGrid .beds,
+.cardViewGrid .baths,
+.cardViewGrid .yearBuilt,
+.cardViewGrid .label
+{
+	line-height:1.4;
+	font-size: 14px;
+}
+.cardViewGrid .gvItemRPanel p,
+.cardViewGrid .gvItemRPanel p *
+{
+	line-height: 21px;
+}
+.cardViewGrid p.spacer
+{
+	font-size: 10px;
+	line-height: 14px;
+}
+.cardViewGrid .cardProperties p,
+.cardViewGrid .cardProperties p *
+{
+	line-height: 17px;
+}
+
+.tableViewGrid
+{
+	min-width:657px;
+}
+.tableViewGrid .gvItem
+{
+	min-width:610px;
+}
+
+.galleryDV .dxdvContent_iOS table
+{
+	width: 586px;
+}

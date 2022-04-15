@@ -1,0 +1,470 @@
+﻿body 
+{
+    margin:0px;
+    background-color:#CBCED2;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+p 
+{
+	margin:0px;
+}
+body, .address, .address2, .beds, .baths, .yearBuilt, .price,
+.type, .lotSize, .houseSize, .dxrpHeader_iOS, .features, .label, .dxtc-content, label.dxeBase_iOS
+{
+	font-family: HelveticaNeue,Helvetica,Verdana,sans-serif!important;
+	font-size: 12px;
+	font-weight: normal;
+	color: Black;
+}
+
+.dxtcLite_TabBar .dxtc-content 
+{
+	overflow:hidden;
+}
+.dxbButton_iOS
+{
+	font-size: 15px!important;
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.35);
+}
+.btnAllOffers .dxbButton_iOS
+{
+	box-shadow: none;
+}
+
+#TabBar_C0,
+#TabBar_C1
+{
+	background-color:#9EA4AB;
+	background-position:left top;
+	background-repeat:repeat-x;
+	overflow:hidden;
+}
+#TabBar_C1
+{
+	padding: 18px 14px 15px 14px;
+}
+
+/*cardViewGrid*/
+.dxrpControl_iOS
+{
+	float:left;
+	border-radius: 4px!important;
+	border-color: #505153!important;
+	background-color: #D4D8DA;
+}
+.dxrpHeader_iOS
+{
+	font-size:16px;
+	border-radius: 4px 4px 0 0!important;
+}
+.dxrpHeader_iOS td.dxrp > span
+{
+	font-size: 16px;
+	text-shadow: 0 1px 1px #424448;
+}
+.dxrpControl_iOS.rpLeft
+{
+	margin-right:8px;
+}
+.cardViewGrid .dxgvTable_iOS
+{
+	border: none;
+	border-radius: 0!important;
+	background-color: #D4D8DA;
+}
+.cardViewGrid .dxgvDataRow_iOS td
+{
+	border-bottom: 1px #A9ACAE solid;
+}
+.cardViewGrid .gvItem
+{
+	background-color:#D4D8DA;
+	cursor: pointer;
+}
+.cardViewGrid .dxgvTable_iOS > tbody > tr:last-child .gvItem
+{
+	border-bottom: none;
+}
+.cardViewGrid .gvItemLPanel
+{
+	float:left;
+}
+.cardViewGrid .gvItemRPanel
+{
+	float:left;
+	padding-bottom: 18px;
+}
+.cardViewGrid .address,
+.cardViewGrid .address2,
+.cardViewGrid .beds,
+.cardViewGrid .baths,
+.cardViewGrid .yearBuilt,
+.cardViewGrid .type,
+.cardViewGrid .houseSize,
+.cardViewGrid .lotSize,
+.cardViewGrid .features
+{
+	font-size: 14px;
+	color: #2F3336;
+	text-shadow: #EAECED 0px 1px 1px;
+}
+.cardViewGrid .beds,
+.cardViewGrid .baths,
+.cardViewGrid .yearBuilt
+{
+	font-weight:bold;
+}
+.cardViewGrid .address2
+{
+	font-size: 10pt;
+	color: #2F3336;
+}
+.cardViewGrid .label
+{
+	color:#2F3336;
+}
+.gvItem .icon
+{
+	background-color:White;
+	padding:3px;
+	border: 1px #8F9293 solid;
+	border-radius: 2px;
+	box-shadow: 0px 1px 1px #BDC0C2,
+				inset 0px 0px 1px #BDC0C2;
+}
+.cardViewGrid>tbody>tr>td>div
+{
+	background-color:#D4D8DA;
+}
+
+/*Table View*/
+.tableViewPortraitContainer
+{
+	padding-top: 10px;
+	padding-bottom: 18px;
+}
+.tableViewGrid .dxgvGroupPanel_iOS
+{
+	height: 38px;
+    padding-top: 12px;
+}
+.tableViewGrid .dxgvTable_iOS,
+.tableViewGrid .dxgvTable_iOS > tbody > tr:nth-last-child(1) div.gvItem
+{
+	border-bottom : none;
+}
+.tableViewGrid .gvItem
+{
+	padding: 15px;
+	border-bottom: 1px #E0E0E0 solid;
+	background-color:#FFFFFF;
+	height:70px;
+	cursor: pointer;
+}
+.tableViewGrid .icon
+{
+	width: 94px;
+	height: 63px;
+	float: left;
+	margin-left: 0px;
+}
+.tableViewGrid .addressPanel,
+.tableViewGrid .propsPanel
+{
+	margin-top:10px;
+}
+.tableViewGrid .addressPanel
+{
+	float:left;
+	width:300px;
+	margin-Left:10px;
+}
+.tableViewGrid .propsPanel
+{
+	float:right;
+	width:190px;
+}
+.tableViewGrid .addressPanel p,
+.tableViewGrid .addressPanel p *
+{
+	line-height: 20px!important;
+}
+.tableViewGrid .address
+{
+	font-size:16pt;
+	color: Black;
+	font-weight: normal;
+}
+.tableViewGrid .address2
+{
+	font-size:12pt;
+	color: #A6A6A6;
+	font-weight: normal;
+}
+.tableViewGrid .beds,
+.tableViewGrid .baths,
+.tableViewGrid .propsPanel .label
+{
+	color: Black;
+	font-size:14pt;
+}
+.tableViewGrid .propsPanel
+{
+	text-align:right;
+}
+.tableViewGrid .price
+{
+	font-size:24pt;
+	color:#2470D8;
+}
+
+.tableViewSearchGrid
+{
+	float:left;
+	border-width:0 1px 0 0;
+	background-color: #F0F0F0;
+}
+.tableViewSearchGrid .dxgvTable_iOS
+{
+	border: none;
+}
+.tableViewSearchGrid > tbody > tr > td > div:nth-child(1) .dxgvTable_iOS
+{
+	border-top: none!important;
+	border-radius: 0!important;
+}
+.tableViewSearchGrid .dxgvFilterRow_iOS td.dxgv
+{
+	border-top: none;
+	border-bottom: 1px solid #797F90;
+	background-image: url("../Images/SearchBack.png");
+}
+.tableViewSearchGrid .dxgvFilterRow_iOS td.dxgv td.dxic
+{
+	padding: 0px 6px 4px 7px!important;
+}
+.tableViewSearchGrid .dxgvFilterRow_iOS td.dxgv .dxeTextBoxSys
+{
+	background: url("../Images/Loupe.png") no-repeat scroll 8px 6px white;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25) inset,
+				0 1px 0px rgba(255, 255, 255, 0.25);
+	border-color: rgba(0, 0, 0, 0.35);
+	border-radius: 14px;
+}
+.tableViewSearchGrid .dxgvFilterRow_iOS td.dxgv .dxeEditArea_iOS
+{
+	font-size: 10pt;
+}
+.tableViewSearchGrid .dxgvFilterRow_iOS td.dxgv .dxeNullText_iOS .dxeEditArea_iOS
+{
+	color: rgba(0, 0, 0, 0.35);
+}
+.tableViewSearchGrid .gvItem
+{
+    padding: 9px 13px 11px 13px;
+    border-bottom: 1px #E0E0E0 solid;
+    height:59px;
+    cursor: pointer;
+}
+.tableViewSearchGrid .gvItem p
+{
+	line-height: 0;
+}
+.tableViewSearchGrid .address
+{
+	color: Black;
+    font-size:20px;
+}
+.tableViewSearchGrid .address2
+{
+    color:#BCBCBC;
+    font-size:13px;
+}
+.tableViewSearchGrid .dxgvSelectedRow_iOS .address,
+.tableViewSearchGrid .dxgvSelectedRow_iOS .address2
+{
+	color:#FFFFFF;
+}
+.tableViewSearchGrid .price
+{
+    font-size:14px;
+	color:#2470D8;
+	line-height: 1.6;
+}
+.tableViewSearchGrid .dxgvSelectedRow_iOS .price
+{
+	color:white;
+}
+
+/* Details */
+.detailsWrapper
+{
+	background: #A0A6AC url("../Images/DetailBack.png") repeat-x;
+	border-left: 1px solid #545454;
+}
+.cpDetails
+{
+	text-shadow: 0 1px rgba(255, 255, 255, 0.5);
+}
+.cpDetails,
+.leftPanel
+{
+	float:left;
+} 
+.cpDetails p,
+.cpDetails p *
+{
+	line-height: 22px!important;
+	font-size: 13px;
+}
+.cpDetails .leftPanel
+{
+	padding: 21px 30px 100px 35px;
+	width: 240px;
+}
+.cpDetails .rightPanel
+{
+	padding-top: 30px;
+	padding-left: 35px;
+	margin-right: 35px;
+}
+.cpDetails .image,
+.cpDetails .image img
+{
+	width: 240px;
+	height: 160px;
+}
+.cpDetails .image
+{
+	border: 2px solid white;
+    border-radius: 15px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+    overflow:hidden;
+    background-color:white;
+}
+.cpDetails .image img
+{
+	border-radius: 13px;
+}
+.cpDetails .btnBuy
+{
+	margin: 17px auto 12px auto;
+}
+.cpDetails .beds,
+.cpDetails .baths,
+.cpDetails .yearBuilt,
+.cpDetails .type,
+.cpDetails .houseSize,
+.cpDetails .lotSize,
+.cpDetails .features
+{
+	color:#2F3336;
+	font-weight:bold;
+}
+.cpDetails .label
+{
+	line-height: 25px;
+	color: #2F3336;
+}
+.cpDetails .address
+{
+	font-size:28px;
+	color: Black;
+}
+.cpDetails .address2
+{
+	font-size: 14px;
+	color: #2F3336;
+}
+
+.cpDetails .houseSize,
+.cpDetails .type
+{
+	font-weight:normal;
+}
+.cpDetails .paragraphPF
+{
+	margin-top: 28px;
+}
+.cpDetails .labelPF
+{
+	color: #2F3336;
+	font-size: 17px;
+	font-weight: normal;
+	margin-top: 35px;
+}
+.cpDetails .features
+{
+	line-height: 18px;	
+	font-size: 14px;
+	font-weight: normal;
+}
+.scrollable
+{
+	overflow:auto;
+}
+
+.cardProperties
+{
+	margin:6px 0 0 0;
+}
+
+/* gallery */
+.galleryDV.dxdvControl_iOS .dxdvPagerPanel_iOS
+{
+	border-radius: 0!important;
+}
+.galleryDV,
+.galleryDV.dxdvControl_iOS td.dxdvCtrl
+{
+	border: none;
+	border-radius: 0;
+}
+.galleryDV .dxdvContent_iOS
+{
+	background-color: Black;
+	padding-top: 44px;
+	margin: auto;
+}
+.galleryDV .dxdvContent_iOS table
+{
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+.galleryDV .dxdvFlowItem_iOS
+{
+	border:3px solid #EFEFEF;
+    padding: 0px;
+    background-color: white;
+	margin:0 20px 33px 20px!important;
+	height: 100%;
+}
+.galleryDV .dxdvFlowItem_iOS img
+{
+	width: 250px;
+	height: 167px;
+	cursor: pointer;
+}
+
+.blackBackgroud
+{
+    background-color:Black;
+}
+.blackBackgroud .dxTouchVScrollHandle, 
+.blackBackgroud .dxTouchHScrollHandle
+{
+    border: 1px white solid;    
+}
+
+.toolbar
+{
+	background: url("../Images/ToolbarBack.png") repeat-x;
+	height: 36px;
+	padding-top: 6px;
+	padding-left: 14px;
+}
+
+span
+{
+    color:Green;
+}

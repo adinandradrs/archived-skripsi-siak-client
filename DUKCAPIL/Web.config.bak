@@ -1,0 +1,138 @@
+﻿<?xml version="1.0"?>
+<!-- 
+    Note: As an alternative to hand editing this file you can use the 
+    web admin tool to configure settings for your application. Use
+    the Website->Asp.Net Configuration option in Visual Studio.
+    A full list of settings and comments can be found in 
+    machine.config.comments usually located in 
+    \Windows\Microsoft.Net\Framework\v2.x\Config 
+-->
+<configuration>
+  <configSections>
+    <sectionGroup name="devExpress">
+      <section name="compression" type="DevExpress.Web.ASPxClasses.CompressionConfigurationSection, DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" requirePermission="false" />
+      <section name="themes" type="DevExpress.Web.ASPxClasses.ThemesConfigurationSection, DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" requirePermission="false" />
+      <section name="errors" type="DevExpress.Web.ASPxClasses.ErrorsConfigurationSection, DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" requirePermission="false" />
+    </sectionGroup>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+      <section name="DUKCAPIL.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <system.web>
+    <globalization culture="id-ID" uiCulture="id" />
+    <compilation debug="true" strict="false" explicit="true">
+      <assemblies>
+        <add assembly="DevExpress.Xpo.v10.1.Web, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Xpo.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Data.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Web.ASPxGridView.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Web.ASPxEditors.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Utils.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Charts.v10.1.Core, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.XtraCharts.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.XtraPivotGrid.v10.1.Core, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Web.ASPxPivotGrid.v10.1.Export, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.XtraPivotGrid.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.XtraReports.v10.1.Web, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.XtraReports.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Web.ASPxGridView.v10.1.Export, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.XtraPrinting.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.XtraEditors.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.Web.ASPxPivotGrid.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="DevExpress.XtraCharts.v10.1.Web, Version=10.1.5.0, Culture=neutral, PublicKeyToken=B88D1754D700E49A" />
+        <add assembly="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089" />
+        <add assembly="System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=B03F5F7F11D50A3A" />
+      </assemblies>
+    </compilation>
+    <pages theme="Youthful">
+      <controls>
+        <add tagPrefix="csla" namespace="Csla.Web" assembly="Csla" />
+        <add tagPrefix="dxe" namespace="DevExpress.Web.ASPxEditors" assembly="DevExpress.Web.ASPxEditors.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxm" namespace="DevExpress.Web.ASPxMenu" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxp" namespace="DevExpress.Web.ASPxPanel" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxrp" namespace="DevExpress.Web.ASPxRoundPanel" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxwgv" namespace="DevExpress.Web.ASPxGridView" assembly="DevExpress.Web.ASPxGridView.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxwgv" namespace="DevExpress.Web.ASPxGridView.Export" assembly="DevExpress.Web.ASPxGridView.v10.1.Export, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxw" namespace="DevExpress.Web.ASPxClasses" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxtc" namespace="DevExpress.Web.ASPxTabControl" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxpc" namespace="DevExpress.Web.ASPxPopupControl" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxcb" namespace="DevExpress.Web.ASPxCallback" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxcp" namespace="DevExpress.Web.ASPxCallbackPanel" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxrp" namespace="DevExpress.Web.ASPxRoundPanel" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxuc" namespace="DevExpress.Web.ASPxUploadControl" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dx" namespace="DevExpress.Xpo" assembly="DevExpress.Xpo.v10.1.Web, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dx" namespace="DevExpress.Xpo" assembly="DevExpress.Xpo.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+        <add tagPrefix="dxnv" namespace="DevExpress.Web.ASPxNavBar" assembly="DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+      </controls>
+      <namespaces>
+        <clear />
+        <add namespace="System" />
+        <add namespace="System.Collections" />
+        <add namespace="System.Collections.Specialized" />
+        <add namespace="System.Configuration" />
+        <add namespace="System.Data.SqlClient" />
+        <add namespace="System.IO" />
+        <add namespace="System.Text" />
+        <add namespace="System.Text.RegularExpressions" />
+        <add namespace="System.Web" />
+        <add namespace="System.Web.Caching" />
+        <add namespace="System.Web.SessionState" />
+        <add namespace="System.Web.Security" />
+        <add namespace="System.Web.Profile" />
+        <add namespace="System.Web.UI" />
+        <add namespace="System.Web.UI.WebControls" />
+        <add namespace="System.Web.UI.WebControls.WebParts" />
+        <add namespace="System.Web.UI.HtmlControls" />
+        <add namespace="DevExpress.Web.ASPxEditors" />
+        <add namespace="DevExpress.Web.ASPxUploadControl" />
+        <add namespace="DevExpress.Web.ASPxCallbackPanel" />
+        <add namespace="DevExpress.Data.Filtering" />
+        <add namespace="DevExpress.Web.ASPxGridView" />
+      </namespaces>
+    </pages>
+    <!--
+            The <authentication> section enables configuration 
+            of the security authentication mode used by 
+            ASP.NET to identify an incoming user. 
+        -->
+    <authentication mode="Forms">
+      <forms loginUrl="~/LoginPage/Default.aspx" name="office" />
+    </authentication>
+    <!--<authorization>
+      <deny users="?"/>
+    </authorization>-->
+    <!--
+            The <customErrors> section enables configuration 
+            of what to do if/when an unhandled error occurs 
+            during the execution of a request. Specifically, 
+            it enables developers to configure html error pages 
+            to be displayed in place of a error stack trace.
+
+        <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm">
+            <error statusCode="403" redirect="NoAccess.htm" />
+            <error statusCode="404" redirect="FileNotFound.htm" />
+        </customErrors>
+        -->
+    <httpModules>
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" name="ASPxHttpHandlerModule" />
+    </httpModules>
+  </system.web>
+  <system.webServer>
+    <modules>
+      <add type="DevExpress.Web.ASPxClasses.ASPxHttpHandlerModule, DevExpress.Web.v10.1, Version=10.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" name="ASPxHttpHandlerModule" />
+    </modules>
+  </system.webServer>
+  <devExpress>
+    <compression enableHtmlCompression="false" enableCallbackCompression="true" enableResourceCompression="true" enableResourceMerging="false" />
+    <themes enableThemesAssembly="true" />
+    <errors callbackErrorRedirectUrl="" />
+  </devExpress>
+  <applicationSettings>
+    <DUKCAPIL.Properties.Settings>
+      <setting name="DUKCAPIL_asus_a43sj_SIAKServiceService" serializeAs="String">
+        <value>http://asus-a43sj:8080/DUKCAPIL/SIAKServiceService</value>
+      </setting>
+    </DUKCAPIL.Properties.Settings>
+  </applicationSettings>
+</configuration>

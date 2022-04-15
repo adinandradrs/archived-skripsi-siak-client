@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://service.siak.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="SIAKServiceService" targetNamespace="http://service.siak.org/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://asus-a43sj:8080/DUKCAPIL/SIAKService?xsd=xsd1" namespace="http://service.siak.org/" />
+    </xsd:schema>
+  </types>
+  <message name="infoBiodataKelurahan">
+    <part name="parameters" element="tns:infoBiodataKelurahan" />
+  </message>
+  <message name="infoKota">
+    <part name="parameters" element="tns:infoKota" />
+  </message>
+  <message name="authKelurahanResponse">
+    <part name="parameters" element="tns:authKelurahanResponse" />
+  </message>
+  <message name="infoKTPKelurahan">
+    <part name="parameters" element="tns:infoKTPKelurahan" />
+  </message>
+  <message name="authKotaResponse">
+    <part name="parameters" element="tns:authKotaResponse" />
+  </message>
+  <message name="infoKTPKelurahanResponse">
+    <part name="parameters" element="tns:infoKTPKelurahanResponse" />
+  </message>
+  <message name="authKelurahan">
+    <part name="parameters" element="tns:authKelurahan" />
+  </message>
+  <message name="authKota">
+    <part name="parameters" element="tns:authKota" />
+  </message>
+  <message name="infoBiodataKelurahanResponse">
+    <part name="parameters" element="tns:infoBiodataKelurahanResponse" />
+  </message>
+  <message name="infoKotaResponse">
+    <part name="parameters" element="tns:infoKotaResponse" />
+  </message>
+  <portType name="SIAKService">
+    <operation name="authKota">
+      <input wsam:Action="http://service.siak.org/SIAKService/authKotaRequest" message="tns:authKota" />
+      <output wsam:Action="http://service.siak.org/SIAKService/authKotaResponse" message="tns:authKotaResponse" />
+    </operation>
+    <operation name="infoKota">
+      <input wsam:Action="http://service.siak.org/SIAKService/infoKotaRequest" message="tns:infoKota" />
+      <output wsam:Action="http://service.siak.org/SIAKService/infoKotaResponse" message="tns:infoKotaResponse" />
+    </operation>
+    <operation name="authKelurahan">
+      <input wsam:Action="http://service.siak.org/SIAKService/authKelurahanRequest" message="tns:authKelurahan" />
+      <output wsam:Action="http://service.siak.org/SIAKService/authKelurahanResponse" message="tns:authKelurahanResponse" />
+    </operation>
+    <operation name="infoKTPKelurahan">
+      <input wsam:Action="http://service.siak.org/SIAKService/infoKTPKelurahanRequest" message="tns:infoKTPKelurahan" />
+      <output wsam:Action="http://service.siak.org/SIAKService/infoKTPKelurahanResponse" message="tns:infoKTPKelurahanResponse" />
+    </operation>
+    <operation name="infoBiodataKelurahan">
+      <input wsam:Action="http://service.siak.org/SIAKService/infoBiodataKelurahanRequest" message="tns:infoBiodataKelurahan" />
+      <output wsam:Action="http://service.siak.org/SIAKService/infoBiodataKelurahanResponse" message="tns:infoBiodataKelurahanResponse" />
+    </operation>
+  </portType>
+  <binding name="SIAKServicePortBinding" type="tns:SIAKService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="authKota">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="infoKota">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="authKelurahan">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="infoKTPKelurahan">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="infoBiodataKelurahan">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="SIAKServiceService">
+    <port name="SIAKServicePort" binding="tns:SIAKServicePortBinding">
+      <soap:address location="http://asus-a43sj:8080/DUKCAPIL/SIAKService" />
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,6 @@
+d:\documents\visual studio 2010\Projects\Skripsi\DUKCAPIL\bin\DUKCAPIL.dll
+d:\documents\visual studio 2010\Projects\Skripsi\DUKCAPIL\bin\DUKCAPIL.pdb
+d:\documents\visual studio 2010\Projects\Skripsi\DUKCAPIL\obj\Debug\ResolveAssemblyReference.cache
+d:\documents\visual studio 2010\Projects\Skripsi\DUKCAPIL\obj\Debug\DUKCAPIL.dll
+d:\documents\visual studio 2010\Projects\Skripsi\DUKCAPIL\obj\Debug\DUKCAPIL.pdb
+d:\documents\visual studio 2010\Projects\Skripsi\DUKCAPIL\obj\Debug\DUKCAPIL.dll.licenses

@@ -1,0 +1,52 @@
+﻿html
+{
+    padding:0;
+    margin:0;
+}
+
+body 
+{
+    font-family:Arial, Sans-Serif;
+    font-size:10pt;
+    background:url("../Images/bg.jpg") repeat-x #F6F6F6;
+}
+
+.title
+{
+    margin-top:30px;
+    font-size:25pt;
+    font-weight:bold;
+    color:#0001A7;
+    margin-left:120px;
+}
+
+.frame
+{
+    overflow:auto;
+    width:95%;
+    margin:30px auto;
+    background-image: linear-gradient(right bottom, rgb(133,138,126) 33%, rgb(204,204,204) 67%);
+    background-image: -o-linear-gradient(right bottom, rgb(133,138,126) 33%, rgb(204,204,204) 67%);
+    background-image: -moz-linear-gradient(right bottom, rgb(133,138,126) 33%, rgb(204,204,204) 67%);
+    background-image: -webkit-linear-gradient(right bottom, rgb(133,138,126) 33%, rgb(204,204,204) 67%);
+    background-image: -ms-linear-gradient(right bottom, rgb(133,138,126) 33%, rgb(204,204,204) 67%);
+
+    background-image: -webkit-gradient(
+	    linear,
+	    right bottom,
+	    left top,
+	    color-stop(0.33, rgb(133,138,126)),
+	    color-stop(0.67, rgb(204,204,204))
+    );
+    opacity:0.85;
+    padding:30px;
+    min-height:350px;
+    border:1px solid #FFF;
+    border-radius:20px;
+}
+
+.content
+{
+    margin:20px auto;
+}
+

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\Documents\Visual Studio 2010\Projects\Skripsi\PrecompiledWeb\PindahPenduduk" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="App_Themes/Youthful/ASPxButton.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/WeekDaysEdit.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxTextBox.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxScheduler.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxHtmlEditor.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxCallbackPanel.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxNewsControl.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxComboBox.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxRatingControl.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxRadioButton.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxGridView.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxNavBar.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="Main.aspx" publishTime="08/10/2012 08:39:33" />
+    <file relUrl="App_Themes/Youthful/ASPxPageControl.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxCheckBox.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxMenu.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxProgressBar.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxLabel.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxHeadline.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxPager.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxSplitter.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="Site1.Master" publishTime="09/25/2012 21:51:12" />
+    <file relUrl="App_Themes/Youthful/MonthEdit.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxDropDownEdit.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/CSS/Style.css" publishTime="08/03/2012 09:13:11" />
+    <file relUrl="App_Themes/Youthful/ASPxTitleIndex.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxRadioButtonList.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxTreeList.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="Default.aspx" publishTime="08/28/2012 12:49:53" />
+    <file relUrl="App_Themes/Youthful/ASPxSpinEdit.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxDateEdit.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="bin/DUKCAPIL.dll" publishTime="09/25/2012 22:07:45" />
+    <file relUrl="App_Themes/Youthful/ASPxDateNavigator.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxLoadingPanel.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxHyperLink.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxPopupControl.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxListBox.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ReportViewer.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxPivotGrid.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxFilterControl.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxCloudControl.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxSpellChecker.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxPopupMenu.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxTabControl.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="web.config" publishTime="08/07/2012 00:53:26" />
+    <file relUrl="App_Themes/Youthful/ASPxMemo.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxRoundPanel.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxDataView.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="bin/DUKCAPIL.pdb" publishTime="09/25/2012 22:07:45" />
+    <file relUrl="App_Themes/Youthful/ASPxColorEdit.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Images/bg.jpg" publishTime="08/01/2012 01:02:51" />
+    <file relUrl="App_Themes/Youthful/ASPxSiteMapControl.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/WeekOfMonthEdit.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxButtonEdit.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ASPxCalendar.skin" publishTime="09/25/2012 22:07:33" />
+    <file relUrl="App_Themes/Youthful/ReportToolbar.skin" publishTime="09/25/2012 22:07:33" />
+  </publishProfile>
+</publishData>

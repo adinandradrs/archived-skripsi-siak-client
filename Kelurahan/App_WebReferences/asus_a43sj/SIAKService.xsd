@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://service.siak.org/" targetNamespace="http://service.siak.org/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="authKelurahan" type="tns:authKelurahan" />
+  <xs:element name="authKelurahanResponse" type="tns:authKelurahanResponse" />
+  <xs:element name="authKota" type="tns:authKota" />
+  <xs:element name="authKotaResponse" type="tns:authKotaResponse" />
+  <xs:element name="infoBiodataKelurahan" type="tns:infoBiodataKelurahan" />
+  <xs:element name="infoBiodataKelurahanResponse" type="tns:infoBiodataKelurahanResponse" />
+  <xs:element name="infoKTPKelurahan" type="tns:infoKTPKelurahan" />
+  <xs:element name="infoKTPKelurahanResponse" type="tns:infoKTPKelurahanResponse" />
+  <xs:element name="infoKota" type="tns:infoKota" />
+  <xs:element name="infoKotaResponse" type="tns:infoKotaResponse" />
+  <xs:complexType name="authKota">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+      <xs:element minOccurs="0" name="sandi" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authKotaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:kotaDummy" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="kotaDummy">
+    <xs:sequence>
+      <xs:element name="kotaID" type="xs:int" />
+      <xs:element minOccurs="0" name="namaKota" type="xs:string" />
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="infoKTPKelurahan">
+    <xs:sequence>
+      <xs:element name="kelurahanID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="infoKTPKelurahanResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:biodataKelurahanDummy" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="biodataKelurahanDummy">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="agama" type="xs:string" />
+      <xs:element minOccurs="0" name="alamat" type="xs:string" />
+      <xs:element minOccurs="0" name="expiredKTP" type="xs:string" />
+      <xs:element minOccurs="0" name="foto" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="jenisKelamin" type="xs:string" />
+      <xs:element minOccurs="0" name="nama" type="xs:string" />
+      <xs:element minOccurs="0" name="nik" type="xs:string" />
+      <xs:element minOccurs="0" name="noTelepon" type="xs:string" />
+      <xs:element minOccurs="0" name="pekerjaan" type="xs:string" />
+      <xs:element minOccurs="0" name="pendidikan" type="xs:string" />
+      <xs:element minOccurs="0" name="tanggalLahir" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authKelurahan">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+      <xs:element minOccurs="0" name="sandi" type="xs:string" />
+      <xs:element minOccurs="0" name="waktuString" type="xs:string" />
+      <xs:element minOccurs="0" name="ipAddress" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="authKelurahanResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:kelurahanDummy" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="kelurahanDummy">
+    <xs:sequence>
+      <xs:element name="kelurahanID" type="xs:int" />
+      <xs:element minOccurs="0" name="sandi" type="xs:string" />
+      <xs:element minOccurs="0" name="username" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="infoBiodataKelurahan">
+    <xs:sequence>
+      <xs:element name="kelurahanID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="infoBiodataKelurahanResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:biodataKelurahanDummy" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="infoKota">
+    <xs:sequence>
+      <xs:element name="kotaID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="infoKotaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:biodataPindahDummy" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="biodataPindahDummy">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="agama" type="xs:string" />
+      <xs:element minOccurs="0" name="alamat" type="xs:string" />
+      <xs:element minOccurs="0" name="foto" type="xs:base64Binary" />
+      <xs:element minOccurs="0" name="jenisKelamin" type="xs:string" />
+      <xs:element minOccurs="0" name="nama" type="xs:string" />
+      <xs:element minOccurs="0" name="nik" type="xs:string" />
+      <xs:element minOccurs="0" name="noTelepon" type="xs:string" />
+      <xs:element minOccurs="0" name="pekerjaan" type="xs:string" />
+      <xs:element minOccurs="0" name="pendidikan" type="xs:string" />
+      <xs:element minOccurs="0" name="tanggalLahir" type="xs:string" />
+      <xs:element minOccurs="0" name="tanggalPengajuan" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

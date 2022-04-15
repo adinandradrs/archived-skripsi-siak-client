@@ -1,0 +1,60 @@
+﻿.landscapeInvisible
+{
+    display:none;
+}
+#TabBar_C0,
+#TabBar_C1
+{
+	background-color: #E2E5EA;
+}
+.cardViewGrid .gvItem
+{
+	padding: 23px 30px 18px;
+}
+.cardViewGrid .gvItemRPanel
+{
+	width: 220px;
+	padding-left:20px;
+	padding-top:5px;
+}
+.cardViewGrid .gvItem
+{
+	height:150px;
+}
+.cardViewGrid .icon
+{
+	width:141px;
+	height:94px;
+}
+.cardViewGrid .price
+{
+	margin: 7px auto 0 auto;
+}
+.cardViewGrid .address
+{
+	font-size: 14pt;
+}
+.cardViewGrid .gvItemRPanel p,
+.cardViewGrid .gvItemRPanel p *
+{
+	line-height: 19px;
+}
+.cardViewGrid p.spacer
+{
+	font-size: 10px;
+	line-height: 10px;
+}
+.cardViewGrid .cardProperties p,
+.cardViewGrid .cardProperties p *
+{
+	line-height: 16px;
+}
+
+.tableViewSearchGrid
+{
+    border-radius:0!important;
+}
+.galleryDV .dxdvContent_iOS table
+{
+	width: 879px;
+}
